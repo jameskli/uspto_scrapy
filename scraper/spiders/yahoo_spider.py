@@ -10,7 +10,6 @@ class YahooSpider(scrapy.Spider):
             with open(filename, 'r') as f:
                 self.uspto_urls = [url.strip() for url in f.readlines()]
 
-
     def start_requests(self):         
         for url in self.uspto_urls:
             yield scrapy.Request(url=url, callback=self.parse)
