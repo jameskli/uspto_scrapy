@@ -5,7 +5,9 @@ def main_1 ():
     
     URL_STRING3 = '&f=G&l=50&d=PTXT&s1=CA.ASCO.&p='
 
-    TOTAL_PATENTS = 89523
+    #TOTAL_PATENTS = 89523
+    TOTAL_PATENTS = 1094
+   
     URL_STRING5 = '&OS=ACN/CA&RS=ACN/CA'
     for i in range(TOTAL_PATENTS):
         row_num = i + 1
@@ -20,4 +22,4 @@ def main_2 ():
         csv_reader = csv.reader(read_file, delimiter=',', quotechar='"')
         for row in csv_reader:
             print URL_STRING1 + row[0]  + URL_STRING3
-main_2()
+main_1()
