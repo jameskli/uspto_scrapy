@@ -3,6 +3,7 @@ asn1crypto==0.24.0
 astroid==1.6.5
 attrs==18.2.0
 Automat==0.7.0
+autopep8==1.4.3
 backports-abc==0.5
 backports.functools-lru-cache==1.5
 backports.shutil-get-terminal-size==1.0.0
@@ -15,8 +16,9 @@ cssselect==1.0.3
 cycler==0.10.0
 decorator==4.3.0
 defusedxml==0.5.0
-entrypoints==0.2.3
+entrypoints==0.3
 enum34==1.1.6
+flake8==3.7.5
 functools32==3.2.3.post2
 futures==3.2.0
 hyperlink==18.0.0
@@ -56,8 +58,10 @@ prompt-toolkit==1.0.15
 ptyprocess==0.6.0
 pyasn1==0.4.4
 pyasn1-modules==0.2.2
+pycodestyle==2.5.0
 pycparser==2.19
 PyDispatcher==2.0.5
+pyflakes==2.1.0
 Pygments==2.2.0
 PyHamcrest==1.9.0
 pylint==1.9.3
@@ -81,6 +85,7 @@ testpath==0.4.2
 tornado==5.1.1
 traitlets==4.3.2
 Twisted==18.7.0
+typing==3.6.6
 w3lib==1.19.0
 wcwidth==0.1.7
 webencodings==0.5.1
